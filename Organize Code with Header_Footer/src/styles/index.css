@@ -1,0 +1,19 @@
+@import './tailwind.css';
+@import './theme.css';
+
+@font-face {
+  font-family: 'Agrandir';
+  /* Jalur ini naik satu folder dari styles (..) lalu masuk ke assets/fonts */
+  src: url('../assets/fonts/Agrandir-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sturoc';
+  src: url('../assets/fonts/Sturoc.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
